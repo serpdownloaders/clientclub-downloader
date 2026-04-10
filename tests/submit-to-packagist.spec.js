@@ -2,10 +2,12 @@ const { test, expect } = require('@playwright/test');
 const fs = require('fs');
 const path = require('path');
 
-const REPO_URLS = [
-  'https://github.com/serpapps/kajabi-video-downloader',
-  'https://github.com/serpapps/loom-video-downloader',
-];
+const REPO_URLS = process.env.REPO_URLS_JSON
+  ? JSON.parse(process.env.REPO_URLS_JSON)
+  : [
+      'https://github.com/serpapps/kajabi-video-downloader',
+      'https://github.com/serpapps/loom-video-downloader',
+    ];
 
 const RESULTS_FILE = path.join(__dirname, '..', 'packagist-submitted.json');
 

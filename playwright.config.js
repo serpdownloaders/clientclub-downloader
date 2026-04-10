@@ -11,6 +11,7 @@ module.exports = defineConfig({
     ...devices['Desktop Chrome'],
     video: 'off',
     screenshot: 'only-on-failure',
+    storageState: process.env.PLAYWRIGHT_STORAGE_STATE || undefined,
   },
   reporter: [['list'], ['json', { outputFile: 'packagist-results.json' }]],
 });
