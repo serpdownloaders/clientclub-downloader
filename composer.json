@@ -1,0 +1,24 @@
+{
+    "name": "serpapps/clientclub-downloader",
+    "type": "library",
+    "description": "Download content from Clientclub instantly without ads or popups",
+    "keywords": [
+        "clientclub-downloader",
+        "clientclub-video-downloader",
+        "browser-extension",
+        "course-video-downloader",
+        "membership-site-downloader"
+    ],
+    "homepage": "https://github.com/serpapps/clientclub-downloader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SERP Apps",
+            "homepage": "https://github.com/serpapps",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
