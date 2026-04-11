@@ -1,0 +1,24 @@
+{
+  "name": "clientclub-downloader",
+  "version": "1.0.0",
+  "description": "> Download videos from ClientClub and supported GoHighLevel-powered portals as MP4 files for offline access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serpapps/clientclub-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/serpapps/clientclub-downloader/issues"
+  },
+  "homepage": "https://github.com/serpapps/clientclub-downloader#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
