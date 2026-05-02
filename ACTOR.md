@@ -2,6 +2,10 @@
 
 > Extract ClientClub courses, resources, and coaching materials for offline access
 
+## Get it Here
+
+Get it here: https://serp.ly/clientclub-downloader
+
 ## Get the extension
 
 **Install here:** [ClientClub Downloader](https://serp.ly/clientclub-downloader)
